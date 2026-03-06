@@ -307,9 +307,9 @@ class RAM(nn.Module):
         x_in = physics.A_adjoint(y)
 
         sigma = physics.noise_model.sigma if hasattr(physics.noise_model, "sigma") else 5e-3
-        sigma = torch.tensor([max(sigma, 1e-3)])
+        sigma = torch.tensor([max(sigma, 1e-3)], device=x_in.device)
         gamma = physics.noise_model.gain if hasattr(physics.noise_model, "gain") else 5e-3
-        gamma = torch.tensor([max(gamma, 1e-3)])
+        gamma = torch.tensor([max(gamma, 1e-3)], device=x_in.device)
 
         out = self.forward_unet(x_in, sigma=sigma, gamma=gamma, physics=physics, y=y)
 

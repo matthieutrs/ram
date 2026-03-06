@@ -58,3 +58,4 @@ sg_execution_times.rst
 ram/demo/
 
 tmp*
+*.egg-info/
