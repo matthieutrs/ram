@@ -12,6 +12,20 @@
 
 ---
 
+🔥 News: Introducing RAM 2!
+
+🚀 RAM 2 is here! We've continued developing the Reconstruct Anything Model at Blur Labs and released RAM 2, our next-generation foundation model for computational imaging.
+
+RAM 2 delivers significantly improved reconstruction quality, faster inference, and stronger generalization across imaging modalities — including MRI, CT, PET, microscopy, photography, and more — without task-specific retraining.
+
+👉 **[Explore RAM 2: Results & Demos](https://www.blurlabs.ai/ram2/)** | **[GitHub: Code & Pretrained Weights](https://github.com/BlurLabsAI/blurlabs)** | **[Blur Labs](https://www.blurlabs.ai/)**
+
+🔥 RAM 2 is available as an open-source 2D model. We've also developed 3D reconstruction models for medical and industrial imaging. Get in touch with Blur Labs to learn more.
+
+This repository contains the original RAM (RAM 1), published at ICLR 2026. For the latest model, please visit the RAM 2 repository.
+
+--
+
 ## Overview
 
 The **Reconstruct Anything Model (RAM)** is a single, non-iterative neural network architecture designed to solve a wide range of imaging inverse problems — including **denoising, deblurring, inpainting, MRI, CT, and super-resolution** — without task-specific tuning or retraining.
