@@ -24,7 +24,7 @@ RAM 2 delivers significantly improved reconstruction quality, faster inference, 
 
 This repository contains the original RAM (RAM 1), published at ICLR 2026. For the latest model, please visit the RAM 2 repository.
 
---
+---
 
 ## Overview
 
