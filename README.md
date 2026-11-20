@@ -26,7 +26,7 @@ This repository contains the original RAM (RAM 1), published at ICLR 2026. For t
 
 ---
 
-## Overview
+## RAM 1 Overview
 
 The **Reconstruct Anything Model (RAM)** is a single, non-iterative neural network architecture designed to solve a wide range of imaging inverse problems — including **denoising, deblurring, inpainting, MRI, CT, and super-resolution** — without task-specific tuning or retraining.
 
